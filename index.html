@@ -42,10 +42,20 @@
             <h2>Meu Primeiro Post</h2>
             <p class="artigo-autor">por: Emanuelli G.</p>
             <p>Bem-vindos ao blog sobre os quiuí! Não a fruta e sim a ave!</p>
+            <button>🥝 <span>0</span></button>
             </div>
             
             
         </main>
 
     </body>
+    <script>
+        const botao = document.querySelector("button");
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado(){
+            console.log("fui clicado");
+        }
+
+    </script>
 </html>
